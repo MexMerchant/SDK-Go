@@ -14,7 +14,6 @@ This Go SDK provides an easy method to integrate with the payment gateway.
 # Prerequisites
 - The SDK requires the following prerequisites to be met in order to function correctly:
     - Go v1.10+
-    - SSL <span style="color: red">**NB: HTTPS is expected to be in place as the payment gateway will respond over SSL when redirecting the user's browser. Failure to provide an environment where HTTPS traffic is possible, will result in the SDK failing**</span>
 
 > <span style="color: red">Please note that we can only offer support for the SDK itself. While every effort has been made to ensure the sample code is complete and bug free, it is only a guide and should not be used in a production environment.</span>
 
