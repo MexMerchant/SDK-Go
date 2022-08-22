@@ -32,7 +32,7 @@ func mainDispatch(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var body string
-	var g = gateway.NewGateway("https://test.3ds-pit.com/direct/", "100856", "Threeds2Test60System")
+	var g = gateway.NewGateway("https://example.com/direct/", "100856", "Threeds2Test60System")
 
 	// Just to make life a little easier
 	for k := range r.PostForm {
